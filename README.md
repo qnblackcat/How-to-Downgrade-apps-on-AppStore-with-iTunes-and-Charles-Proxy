@@ -30,7 +30,7 @@
 
 - **A Windows machine**: Windows XP/7/10 are supported, not tested on Windows 11 yet.
  
-> _(Why Windows only? - Apple killed iTunes 12.6.5 on macOS. Even if you manage to get iTunes 12.6.5 on your Mac, the download feature just will does not work.)_
+> _(Why Windows only? - Apple killed iTunes 12.6.5 on macOS. Even if you manage to get iTunes 12.6.5 on your Mac, the download feature will does not work.)_
 
 - **Charles Proxy**. I use version 4.2.7 but I don't think it's matter. _(No need to crack Charles Proxy)_
 
@@ -44,9 +44,13 @@
 <a name="preparing"/>
 
 - Nothing special about Charles Proxy so I'll focus on iTunes. 
+
 - After you install iTunes succesfully, go to **Edit** => **Preferences** => **Avanced** => Untick **Check for new software updates automatically** to prevent iTunes from asking for update.
+
 - If you get an error about **Library.itl** when opening iTunes: Go to `“C:\Users\Username\My Music\iTunes\”` and delete the existed **Library.itl**
+
 - Login into iTunes with your prepared Apple ID: **Account** => **Sign-in**
+
 - The `Build Number Version` of the version you want to downgrade. You can get the `Build number Version` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search). See more info in pictures below:
 
 ![Tool Lancety](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1823.PNG?token=AMT5SDEBOBFHPY4G6ALGM4LBI5UTS)
