@@ -32,7 +32,7 @@ _(Why Windows only? - Apple killed iTunes 12.6.5 on macOS. Even if you manage to
 
 ## III. Let's get into it
 <a name="getintoit"></a>
-### 1. Preparing the necessary tools.
+### 1. Preparing.
 - Nothing special about Charles Proxy so I'll focus on iTunes. 
 - After you install iTunes succesfully, go to **Edit** => **Preferences** => **Avanced** => Untick **Check for new software updates automatically** to prevent iTunes from asking for update.
 - If you get an error about **Library.itl** when opening iTunes: Go to `“C:\Users\Username\My Music\iTunes\”` and delete the existed **Library.itl**
