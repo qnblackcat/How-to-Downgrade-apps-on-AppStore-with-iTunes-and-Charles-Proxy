@@ -37,9 +37,9 @@
 
 - **A Windows machine**: Windows XP/7/10 are supported, not tested on Windows 11 yet.
  
-> _(Why Windows only? - Apple killed iTunes 12.6.5 on macOS. Even if you manage to get iTunes 12.6.5 on your Mac, the download feature will not work.)_
+> _(Why Windows only? Apple killed iTunes 12.6.5 on macOS. Even if you manage to get iTunes 12.6.5 on your Mac, the download feature will not work.)_
 
-- **Charles Proxy**. I use version 4.2.7 but I don't think it's matter. _(No need to crack Charles Proxy)_
+- **Charles Proxy**. I use version 4.2.7 but I don't think it's matter. (No need to crack Charles Proxy)
 
 - **An Apple ID for iTunes**. Use a clone ID if you like. Keep in mind that if you switch to another ID, you'll need to re-do the process from **Step 3**.
 
@@ -76,6 +76,7 @@
 ![7](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/7.png)
 
 _**Congrats! You just installed Charles Certificate!**_
+
 
 
 ### Step 3. Create the Breakpoint
@@ -118,6 +119,7 @@ _(This is where the fun begins!)_
 ![hBwS](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/hBwSXT7.png)
 
 
+
 ### Step 4. Get the old version of the appplication (IPA)
 <a name="getipa"/>
 
@@ -144,9 +146,7 @@ _(This is where the fun begins!)_
 
 - **3uTools**: Drag & Drop the IPA into the Apps tab
 
-
 ![3u](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/1534755814062064808.gif)
-
 
 - **iMazing**: Manage Apps => Device Tab => Drag & Drop the IPA into the window. _(Note: iMazing **does** work on Windows, but I'm too lazy to setup iMazing on Windows just for 2 screenshots)_
 
@@ -155,6 +155,7 @@ _(This is where the fun begins!)_
 > **macOS**: just **Airdrop** the IPA from your Mac to your phone. You can use iMazing as well.
 
 ![Mac](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/Screen%20Shot%202021-09-20%20at%2009.22.02.png)
+
 
 
 # IV. FAQ
