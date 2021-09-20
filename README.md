@@ -18,7 +18,8 @@
 
 - The Guide seems complicated, but you only need to do Step 1,2, and 3 for the first time. There are 5 steps in total.
 
-- Jailbreak is **NOT** needed. Since the iPA comes directly from iTunes, it's encrypted and can be installed without Sideload. The IPA is 100% legit.
+- Jailbreak is **NOT** needed. Since the iPA comes directly from iTunes, it's encrypted and can be installed without Sideload. The IPA is 100% legit.![image](https://user-images.githubusercontent.com/52943116/133952168-e8cae062-495d-4306-b016-9cdf44b2726c.png)
+
 
 - You can get the old version of any apps on AppStore as long as that version is still **available** on AppStore.
 
@@ -51,7 +52,7 @@
 
 - Login into iTunes with your prepared Apple ID: **Account** => **Sign-in**
 
-- The `Build Number Version` of the version you want to downgrade. You can get the `Build number Version` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search). See more info in pictures below:
+- The `Build Number Version` (or `Build Number`) of the version you want to downgrade. You can get the `Build Number Version` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search). See more info in pictures below:
 
 ![Tool Lancety](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1823.PNG)
 
@@ -114,28 +115,37 @@ _(This is where the fun begins!)_
 ### Step 4. Get the old version of the appplication (IPA)
 <a name="getipa"/>
 
-- **Note: You ONLY need to do the first 3 steps once time. The next time you download an old version of any apps, you'll start from this step (Step 4).**
+> **Note: You ONLY need to do the first 3 steps once time. The next time you download an old version of any apps, you'll start from this step (Step 4).**
 
-- Go back to iTunes and download Facebook, again! **Charles Proxy** will automatically show the **Breakpoint popup.** Select **Edit Request** => **XML Text** => Replace the current `Build Number Version` of Facebook with the `Build Number` of **Facebook v161.0**: `826067593` => **Execute** => **Execute**. Now iTunes will download **Facebook v161.0** istead of the latest version.
+- Go back to iTunes and download Facebook, again! **Charles Proxy** will automatically show the **Breakpoint popup.**: **Edit Request** => **XML Text** => Replace the current `Build Number Version` of Facebook with the `Build Number` of **Facebook v161.0** (`826067593`) => **Execute** => **Execute**. Now iTunes will download **Facebook v161.0** istead of the latest version.
  
-> But how do I know the `Build Number` of **Facebook v161.0**? - Read [Preparing Section](#preparing) carefully!
+> But how do I know the `Build Number` of **Facebook v161.0** is `826067593`? - Read [Preparing Section](#preparing) carefully!
 
 ![WiiLTTo](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/WiiLTTo.png)
 
 ![fb161](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/qv0mzsp.png)
 
-- How do I know the `Build Number` of **Facebook v161.0**? - Read [Preparing Section](#preparing) carefully!
 
-### Step 5. Install the downloaded IPA.
+
+### Step 5. Install the IPA.
 <a name="installipa"/>
 
-- We've finished the hardest part!👊 The IPA will be saved at ```C:\Users\<User>\Music\iTunes\iTunes Media\Mobile Applications```
+- The IPA will be saved at ```C:\Users\<User>\Music\iTunes\iTunes Media\Mobile Applications```. _**Tips:**_ Open the IPA in Explorer by going to **iTunes** => **Library** => Right-click on the app => **Open in Explorer**
 
-> _**Pro Tips:**_ Instead of going to the location above,  **iTunes** => **Library** => Right-click on the app => **Open in Explorer**
+![GcbjR](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/GcbjRwn.png)
 
-- 
+> **Windows**: It is a pain in the neck to install the IPA via iTunes. We will avoid iTunes. 3uTools & iMazing are good alternatives.
+
+- **3uTools**: Drag & Drop the IPA into the Apps tab
 
 
+![3u](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/1534755814062064808.gif)
 
 
+- **iMazing**: Manage Apps => Device Tab => Drag & Drop the IPA into the window. _(Note: iMazing **doees** work on Windows, but I'm too lazy to setup iMazing on Windows just for 2 screenshots)_
 
+![iMazing](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1832.PNG)
+
+> **macOS**: just **Airdrop** the IPA from your Mac to your phone. You can use iMazing as well.
+
+![Mac](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/Screen%20Shot%202021-09-20%20at%2009.22.02.png)
