@@ -63,7 +63,7 @@
 
 ![7](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/7.png)
 
-_**Congrats! You just installed Charles Certificate!**_
+_**Congrats! You just installed Charles Proxy Certificate!**_
 
 
 
