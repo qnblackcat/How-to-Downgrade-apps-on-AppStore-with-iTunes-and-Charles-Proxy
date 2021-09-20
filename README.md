@@ -160,6 +160,7 @@ _(This is where the fun begins!)_
 **2. Can Apple revoke my IPA?**
 
 > - **No, they can't!** If you use iOS long enough, I'm sure you remember the time when we can download IPA directly from iTunes. Our IPAs came from iTunes just like an app from AppStore. Apple can do nothing about it.
+
 **3. I got errors installing the IPA via AltStore/Sideloadly/...**
 
 > - Again, the IPA is **encrypted** with your purchase ID. **DO NOT** sideload it. I mentioned how to install the ipa in [Step 4](#installipa). _(Keep in mind that you only sideload **decrypted** IPA!)._
