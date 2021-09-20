@@ -173,7 +173,7 @@ _(This is where the fun begins!)_
 
 > - You have to re-start the process from **Step 3**.
 
-**6. Apps crash on openning?
+**6. Apps crash on openning?**
 
 > - Most likely the version is too old and not compatible with your current iOS.
 
