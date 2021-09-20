@@ -47,7 +47,7 @@
 # III. Getting Started
 <a name="getintoit"/>
 
-### Step 1. Preparing
+## Step 1. Preparing
 <a name="preparing"/>
 
 - Nothing special about Charles Proxy so I'll focus on iTunes. 
@@ -64,7 +64,7 @@
 
 
 
-### Step 2. Install Charles Root Certificate
+## Step 2. Install Charles Root Certificate
 <a name="cert"/>
 
 ![0](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/0.png)
@@ -79,32 +79,38 @@ _**Congrats! You just installed Charles Certificate!**_
 
 
 
-### Step 3. Create the Breakpoint
+## Step 3. Create the Breakpoint
 <a name="breakpoint"/>
 
 _(This is where the fun begins!)_
 
-1. Open iTunes & Charles Proxy
+### Step 3.1. Open iTunes & Charles Proxy
 
 ![ikSFiKO-1024x545](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/ikSFiKO-1024x545.jpg)
 
 
-2. Search for the app you want to downgrade. I will get the IPA of **Facebook v161.0** as an example
+### Step 3.2. 
+
+- Search for the app you want to downgrade. I will get the IPA of **Facebook v161.0** as an example
 
 ![6BD0iOX](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/6BD0iOX.png) 
 
 
-3. Select **Get** or **Download** to download **Facebook**. This is not the version we want so we'll delete it.
+### Step 3.3. 
+
+- Select **Get** or **Download** to download **Facebook**. This is not the version we want so we'll delete it.
 
 ![P1oxyj](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/P1oxyj.png)
 
 
-4. Now, go to **Charles Proxy**, we'll see a list of domains. **Find a domain that has a form of** `“p**-buy.itunes.apple.com”`, `**` is two-random numbers. As you can see in my picture below, mine is `“p31-buy.itunes.apple.com”`. Right-click on it and select **Enable SSL Proxying**
+### Step 3.4. 
+
+- Now, go to **Charles Proxy**, we'll see a list of domains. **Find a domain that has a form of** `“p**-buy.itunes.apple.com”`, `**` is two-random numbers. As you can see in my picture below, mine is `“p31-buy.itunes.apple.com”`. Right-click on it and select **Enable SSL Proxying**
 
 ![Z8ONSO](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/Z8wONSO-1024x546.jpg)
 
 
-5. Enable the Breakpoint
+### Step 3.5. Enable the Breakpoint
 
 - Go back to iTunes and download Facebook again. This is not a version we want, so we'll delete it.
 
@@ -120,10 +126,10 @@ _(This is where the fun begins!)_
 
 
 
-### Step 4. Get the old version of the appplication (IPA)
+## Step 4. Get the old version of the appplication (IPA)
 <a name="getipa"/>
 
-> **Note: You ONLY need to do the first 3 steps once time. The next time you download an old version of any apps, you'll start from this step (Step 4).**
+> **Note: You ONLY need to do the first 3 steps once time. Next time you downgrade an app, you'll start from this step (Step 4).**
 
 - Go back to iTunes and download Facebook, again! **Charles Proxy** will automatically show the **Breakpoint popup.**: **Edit Request** => **XML Text** => Replace the current `Build Number Version` of Facebook with the `Build Number` of **Facebook v161.0** (`826067593`) => **Execute** => **Execute**. Now iTunes will download **Facebook v161.0** istead of the latest version.
  
