@@ -155,20 +155,24 @@ _(This is where the fun begins!)_
 
 > - **No, they can't!** If you use iOS long enough, I'm sure you remember the time when we can download IPA directly from iTunes. Our IPAs came from iTunes just like an app from AppStore. Apple can do nothing about it.
 
-**2. I got errors installing the IPA via AltStore/Sideloadly/...**
-
-> - Again, the IPA is encrypted with your purchased ID. **DO NOT** sideload it. I mentioned how to install the ipa in [Step 4](#installipa). _(Keep in mind that you only sideload **decrypted** IPA!)._
-
-**3. What happens if I use another Apple ID?**
-
-> - You have to re-start the process from **Step 3**.
-
-**4. Can I share the IPA with my friends?**
+**2. Can I share the IPA with my friends?**
 
 > - **Absolutely yes!** However, you have to give them the IPA **with the Apple ID you used to get the IPA**. Why? Because the first time they open your app, they will be asked to enter the purchased ID. That's how iOS works.
 
 > - Don't want to share your main account? Just use a clone Apple ID.
 
-**5. Is it possible to install the IPA without a computer?**
+**3. I got errors installing the IPA via AltStore/Sideloadly/...**
+
+> - Again, the IPA is **encrypted** with your purchase ID. **DO NOT** sideload it. I mentioned how to install the ipa in [Step 4](#installipa). _(Keep in mind that you only sideload **decrypted** IPA!)._
+
+**4. Can I install the IPA via Filza?**
+
+> Not sure why you need the IPA when you already had [[AppStore++]] or [[AppAdmin]]. But yeah, you can install the IPA using Filza.
+
+**5. What happens if I use another Apple ID?**
+
+> - You have to re-start the process from **Step 3**.
+
+**6. Is it possible to install the IPA without a computer?**
 
 > - **Yes, it is possible!** However, it requires more additional Steps. I may add it in the future. 
