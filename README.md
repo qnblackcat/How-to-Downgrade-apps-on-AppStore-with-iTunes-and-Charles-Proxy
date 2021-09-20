@@ -1,27 +1,19 @@
 # [Guide] How to Downgrade Apps on AppStore with iTunes 12.6.5 & Charles Proxy (no Jailbreak).
 
-# Table of contents
-[I. Notes](#Notes)
+# Table of Content
 
-[II. Requirements](#requirements)
-
-[III. Getting Started](#getintoit)
-
-[1. Preparing](#preparing)
-
-[2. Install Charles Proxy Cerfificate](#cert)
-
-[3. Create the Breakpoint](#breakpoint)
-
-[4. Get the old version of the appplication](#getipa)
-
-[5. Installing the IPA](#installipa)
-
-[IV. FAQ](#faq)
-
+* [**I. Notes**](#i-notes)
+* [**II. Requirements**](#ii-requirements)
+* [**III. Getting Started**](#iii-getting-started)
+   * [**Step 1. Preparing**](#step-1-preparing)
+   * [**Step 2. Install Charles Root Certificate**](#step-2-install-charles-root-certificate)
+   * [**Step 3. Create the Breakpoint**](#step-3-create-the-breakpoint)
+   * [**Step 4. Get the old version of the appplication (IPA)**](#step-4-get-the-old-version-of-the-appplication-ipa)
+   * [**Step 5. Install the IPA**](#step-5-install-the-ipa)
+* [**IV. FAQ**](#iv-faq)
 
 # I. Notes
-<a name="Notes"/>
+
 
 - The Guide seems complicated, but you only need to do Step 1, 2, and 3 for the first time (There are 5 steps in total).
 
@@ -31,7 +23,7 @@
 
 
 # II. Requirements
-<a name="requirements"/>
+
 
 - **iTunes 12.6.5** - the latest version of iTunes that supports download apps. Download here (directly from Apple).
 
@@ -45,10 +37,10 @@
 
 
 # III. Getting Started
-<a name="getintoit"/>
+
 
 ## Step 1. Preparing
-<a name="preparing"/>
+
 
 - Nothing special about Charles Proxy so I'll focus on iTunes. 
 
@@ -65,7 +57,7 @@
 
 
 ## Step 2. Install Charles Root Certificate
-<a name="cert"/>
+
 
 ![0](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/0.png)
 
@@ -80,7 +72,7 @@ _**Congrats! You just installed Charles Certificate!**_
 
 
 ## Step 3. Create the Breakpoint
-<a name="breakpoint"/>
+
 
 _(This is where the fun begins!)_
 
@@ -127,7 +119,7 @@ _(This is where the fun begins!)_
 
 
 ## Step 4. Get the old version of the appplication (IPA)
-<a name="getipa"/>
+
 
 > **Note: You ONLY need to do the first 3 steps once time. Next time you downgrade an app, you'll start from this step (Step 4).**
 
@@ -141,8 +133,8 @@ _(This is where the fun begins!)_
 
 
 
-### Step 5. Install the IPA.
-<a name="installipa"/>
+## Step 5. Install the IPA
+
 
 - The IPA will be saved at ```C:\Users\<User>\Music\iTunes\iTunes Media\Mobile Applications```. _**Tips:**_ Open the IPA in Explorer by going to **iTunes** => **Library** => Right-click on the app => **Open in Explorer**
 
@@ -165,7 +157,7 @@ _(This is where the fun begins!)_
 
 
 # IV. FAQ
-<a name="faq"/>
+
 
 **1. Can Apple revoke my IPA?**
 
