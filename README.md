@@ -17,11 +17,11 @@
 
 - **iTunes 12.6.5 only works on Windows**. Apple killed iTunes 12.6.5 on macOS. Even if you manage to get iTunes 12.6.5 on your Mac, the download feature will not work.
 
-- The Guide seems complicated, but it's very easy to follow, and you only need to do Step 1, 2, and 3 for the first time (There are 5 steps in total).
+- The Guide seems complicated, but it's very easy to follow. Plus, you only need to do Step 1, 2, and 3 for the first time (There are 5 steps in total).
 
 - Jailbreak is **NOT** needed. Since the iPA comes directly from iTunes, it's encrypted and can be installed without Sideload. The IPA is 100% legit!
 
-- You can get the old version of any apps on AppStore as long as that version is still **available** on AppStore.
+- You can get the old version of any apps as long as that version is still **available** on AppStore.
 
 
 # II. Requirements
