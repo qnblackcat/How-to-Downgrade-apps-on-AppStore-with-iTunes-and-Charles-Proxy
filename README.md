@@ -15,7 +15,9 @@
 
 # I. Notes
 
-- The Guide seems complicated, but you only need to do Step 1, 2, and 3 for the first time (There are 5 steps in total).
+- **iTunes 12.6.5 only works on Windows**. Apple killed iTunes 12.6.5 on macOS. Even if you manage to get iTunes 12.6.5 on your Mac, the download feature will not work.
+
+- The Guide seems complicated, but it's very easy to follow, and you only need to do Step 1, 2, and 3 for the first time (There are 5 steps in total).
 
 - Jailbreak is **NOT** needed. Since the iPA comes directly from iTunes, it's encrypted and can be installed without Sideload. The IPA is 100% legit!
 
@@ -24,13 +26,11 @@
 
 # II. Requirements
 
-- **iTunes 12.6.5** - the latest version of iTunes that supports download apps. Download here (directly from Apple).
+- **iTunes 12.6.5** - the latest version of iTunes that supports download apps. [Download here](https://support.apple.com/us/HT208079) (directly from Apple).
 
 - **A Windows machine**: Windows XP/7/10 are supported, not tested on Windows 11 yet.
- 
-> _(Why Windows only? Apple killed iTunes 12.6.5 on macOS. Even if you manage to get iTunes 12.6.5 on your Mac, the download feature will not work.)_
 
-- **Charles Proxy**. I use version 4.2.7 but I don't think it matters (No need to crack Charles Proxy).
+- **Charles Proxy**. I use version 4.2.7 but I don't think it matters (No need to crack Charles Proxy). 
 
 - **An Apple ID for iTunes**. Use a clone ID if you like. Keep in mind that if you switch to another ID, you'll need to re-do the process from **Step 3**.
 
@@ -173,6 +173,10 @@ _(This is where the fun begins!)_
 
 > - You have to re-start the process from **Step 3**.
 
-**6. Is it possible to install the IPA without a computer?**
+**6. Apps crash on openning?
+
+> - Most likely the version is too old and not compatible with your current iOS.
+
+**7. Is it possible to install the IPA without a computer?**
 
 > - **Yes, it is possible!** However, it requires more additional Steps. I may add it in the future. 
