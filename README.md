@@ -5,7 +5,7 @@
 
 [II. Requirements](#requirements)
 
-[III. Get Started](#getintoit)
+[III. Getting Started](#getintoit)
 
 [1. Preparing](#preparing)
 
@@ -44,7 +44,7 @@
 - **An Apple ID for iTunes**. Use a clone ID if you like. Keep in mind that if you switch to another ID, you'll need to re-do the process from **Step 3**.
 
 
-# III. Get Started
+# III. Getting Started
 <a name="getintoit"/>
 
 ### Step 1. Preparing
