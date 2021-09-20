@@ -53,16 +53,16 @@
 
 - The `Build Number Version` of the version you want to downgrade. You can get the `Build number Version` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search). See more info in pictures below:
 
-![Tool Lancety](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1823.PNG?token=AMT5SDEBOBFHPY4G6ALGM4LBI5UTS)
+![Tool Lancety](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1823.PNG?token=AMT5SDDHHVIVOXCPFIUEAE3BI7THY)
 
 
 
 ### Step 2. Install Charles Root Certificate
 <a name="cert"/>
 
-![0](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/0.png?token=AMT5SDFKVCRKB4PGVVLR6C3BI5MC2)
+![0](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/0.png?token=AMT5SDGERQZTHL4ZHBSNYULBI7TDC)
 
-![13](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/13.png?token=AMT5SDGTO6FMC6RW4EIUDMDBI5ML4)
+![13](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/13.png)
 
 ![456](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/456.png?token=AMT5SDHI6TXASLZWYCK4P7TBI5MNG)
 
