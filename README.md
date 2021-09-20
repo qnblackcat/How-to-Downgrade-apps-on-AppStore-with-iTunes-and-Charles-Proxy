@@ -1,4 +1,4 @@
-# [Guide] How to Downgrade apps on AppStore with iTunes 12.6.5 & Charles Proxy (no Jailbreak).
+# [Guide] How to Downgrade Apps on AppStore with iTunes 12.6.5 & Charles Proxy (no Jailbreak).
 
 # Table of contents
 [I. Notes](#Notes)
@@ -13,32 +13,38 @@
 
 [3. Create the Breakpoint](#breakpoint)
 
-## I. Notes
+[4. Get the old version of the appplication](#getipa)
+
+[5. Installing the IPA](#installipa)
+
+[IV. FAQ](#faq)
+
+
+# I. Notes
 <a name="Notes"/>
 
-- The Guide seems complicated, but you only need to do Step 1,2, and 3 for the first time. There are 5 steps in total.
+- The Guide seems complicated, but you only need to do Step 1, 2, and 3 for the first time (There are 5 steps in total).
 
-- Jailbreak is **NOT** needed. Since the iPA comes directly from iTunes, it's encrypted and can be installed without Sideload. The IPA is 100% legit.![image](https://user-images.githubusercontent.com/52943116/133952168-e8cae062-495d-4306-b016-9cdf44b2726c.png)
-
+- Jailbreak is **NOT** needed. Since the iPA comes directly from iTunes, it's encrypted and can be installed without Sideload. The IPA is 100% legit!
 
 - You can get the old version of any apps on AppStore as long as that version is still **available** on AppStore.
 
 
-## II. Requirements
+# II. Requirements
 <a name="requirements"/>
 
 - **iTunes 12.6.5** - the latest version of iTunes that supports download apps. Download here (directly from Apple).
 
 - **A Windows machine**: Windows XP/7/10 are supported, not tested on Windows 11 yet.
  
-> _(Why Windows only? - Apple killed iTunes 12.6.5 on macOS. Even if you manage to get iTunes 12.6.5 on your Mac, the download feature will does not work.)_
+> _(Why Windows only? - Apple killed iTunes 12.6.5 on macOS. Even if you manage to get iTunes 12.6.5 on your Mac, the download feature will not work.)_
 
 - **Charles Proxy**. I use version 4.2.7 but I don't think it's matter. _(No need to crack Charles Proxy)_
 
 - **An Apple ID for iTunes**. Use a clone ID if you like. Keep in mind that if you switch to another ID, you'll need to re-do the process from **Step 3**.
 
 
-## III. Get Started
+# III. Get Started
 <a name="getintoit"/>
 
 ### Step 1. Preparing
@@ -52,7 +58,7 @@
 
 - Login into iTunes with your prepared Apple ID: **Account** => **Sign-in**
 
-- The `Build Number Version` (or `Build Number`) of the version you want to downgrade. You can get the `Build Number Version` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search). See more info in pictures below:
+- The `Build Number Version` (or `Build Number`) of the version you want to downgrade. You can get the `Build Number Version` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search).
 
 ![Tool Lancety](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1823.PNG)
 
@@ -99,9 +105,9 @@ _(This is where the fun begins!)_
 
 5. Enable the Breakpoint
 
-- Go back to iTunes and download Facebook again. This is still not a version we want, so we'll delete it.
+- Go back to iTunes and download Facebook again. This is not a version we want, so we'll delete it.
 
-- In Charles Proxy, you'll see a new `p31-buy.itunes.apple.com` address **with the blue icon at the top of the line**. Expand this address to `buyProduct`. And then following the pictures:
+- In **Charles Proxy**, you'll see a new `p31-buy.itunes.apple.com` address **with the blue icon at the top of the line**. Expand this address to `buyProduct`, and then follow the pictures:
 
 ![zH1Lh](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/zH1LhHX-1024x548.png)
 
@@ -142,10 +148,36 @@ _(This is where the fun begins!)_
 ![3u](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/1534755814062064808.gif)
 
 
-- **iMazing**: Manage Apps => Device Tab => Drag & Drop the IPA into the window. _(Note: iMazing **doees** work on Windows, but I'm too lazy to setup iMazing on Windows just for 2 screenshots)_
+- **iMazing**: Manage Apps => Device Tab => Drag & Drop the IPA into the window. _(Note: iMazing **does** work on Windows, but I'm too lazy to setup iMazing on Windows just for 2 screenshots)_
 
 ![iMazing](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1832.PNG)
 
 > **macOS**: just **Airdrop** the IPA from your Mac to your phone. You can use iMazing as well.
 
 ![Mac](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/Screen%20Shot%202021-09-20%20at%2009.22.02.png)
+
+
+# IV. FAQ
+<a name="faq"/>
+
+**1. Can Apple revoke my IPA?**
+
+> - **No, they can't!** If you use iOS long enough, I'm sure you remember the time when we can download IPA directly from iTunes. Our IPAs came from iTunes just like an app from AppStore. Apple can do nothing about it.
+
+**2. I got errors installing the IPA via AltStore/Sideloadly/...**
+
+> - Again, the IPA is encrypted with your purchased ID. **DO NOT** sideload it. I mentioned how to install the ipa in [Step 4](#installipa). _(Keep in mind that you only sideload **decrypted** IPA!)_
+
+**3. What happens if I use another Apple ID?**
+
+> - You have to re-start the process from **Step 3**.
+
+**4. Can I share the IPA with my friends?**
+
+> - **Absolutely yes!** However, you have to give them the IPA **with the Apple ID you used to get the IPA**. Why? Because the first time they open your app, they will be asked to enter the purchased ID. That's how iOS works.
+
+> - Don't want to share your main account? Just use a clone Apple ID.
+
+**5. Is it possible to install the IPA without a computer?**
+
+> - **Yes, it is possible!** However, it requires more additional Steps. I may add it in the future. 
