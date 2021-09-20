@@ -45,7 +45,7 @@
 
 - If you get an error about **Library.itl** when opening iTunes: Go to `“C:\Users\Username\My Music\iTunes\”` and delete the existed **Library.itl**
 
-- Login into iTunes with your prepared Apple ID: **Account** => **Sign-in**.
+- Login to iTunes with your prepared Apple ID: **Account** => **Sign-in**.
 
 - The `Build Number Version` (or `Build Number`) of the version you want to downgrade. You can get the `Build Number Version` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search).
 
