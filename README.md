@@ -1,6 +1,21 @@
 # [Guide] How to Downgrade Apps on AppStore with iTunes 12.6.5 & Charles Proxy (no Jailbreak).
 
 
+* [I. Notes](#i-notes)
+* [II. Requirements](#ii-requirements)
+* [III. Getting Started](#iii-getting-started)
+   * [Step 1. Preparing](#step-1-preparing)
+   * [Step 2. Install Charles Root Certificate](#step-2-install-charles-root-certificate)
+   * [Step 3. Create the Breakpoint](#step-3-create-the-breakpoint)
+      * [Step 3.1. Open iTunes &amp; Charles Proxy](#step-31-open-itunes--charles-proxy)
+      * [Step 3.2.](#step-32)
+      * [Step 3.3.](#step-33)
+      * [Step 3.4.](#step-34)
+      * [Step 3.5. Enable the Breakpoint](#step-35-enable-the-breakpoint)
+   * [Step 4. Get the old version of the appplication (IPA)](#step-4-get-the-old-version-of-the-appplication-ipa)
+      * [Step 5. Install the IPA.](#step-5-install-the-ipa)
+* [IV. FAQ](#iv-faq)
+
 # I. Notes
 
 
