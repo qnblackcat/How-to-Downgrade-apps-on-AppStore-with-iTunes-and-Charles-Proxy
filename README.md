@@ -30,7 +30,7 @@
 
 - **A Windows machine**: Windows XP/7/10 are supported, not tested on Windows 11 yet.
 
-- **Charles Proxy**. I use version 4.2.7 but I don't think it matters (No need to crack Charles Proxy). 
+- **Charles Proxy**. I use version 4.2.7 but I don't think it matters (No need to crack Charles Proxy). Here is the link if you're too lazy to Google it. [Dropbox](https://www.dropbox.com/s/nrp4obp0ctcwn9e/Charles%20Proxy%204.2.7.rar?dl=0)
 
 - **An Apple ID for iTunes**. Use a clone ID if you like. Keep in mind that if you switch to another ID, you'll need to re-do the process from **Step 3**.
 
@@ -151,16 +151,15 @@ _(This is where the fun begins!)_
 
 # IV. FAQ
 
-**1. Can Apple revoke my IPA?**
-
-> - **No, they can't!** If you use iOS long enough, I'm sure you remember the time when we can download IPA directly from iTunes. Our IPAs came from iTunes just like an app from AppStore. Apple can do nothing about it.
-
-**2. Can I share the IPA with my friends?**
+**1. Can I share the IPA with my friends?**
 
 > - **Absolutely yes!** However, you have to give them the IPA **with the Apple ID you used to get the IPA**. Why? Because the first time they open your app, they will be asked to enter the purchased ID. That's how iOS works.
 
 > - Don't want to share your main account? Just use a clone Apple ID.
 
+**2. Can Apple revoke my IPA?**
+
+> - **No, they can't!** If you use iOS long enough, I'm sure you remember the time when we can download IPA directly from iTunes. Our IPAs came from iTunes just like an app from AppStore. Apple can do nothing about it.
 **3. I got errors installing the IPA via AltStore/Sideloadly/...**
 
 > - Again, the IPA is **encrypted** with your purchase ID. **DO NOT** sideload it. I mentioned how to install the ipa in [Step 4](#installipa). _(Keep in mind that you only sideload **decrypted** IPA!)._
@@ -175,7 +174,7 @@ _(This is where the fun begins!)_
 
 **6. Apps crash on openning?**
 
-> - Most likely the version is too old and not compatible with your current iOS.
+> - Most likely the version is too old and not compatible with your current iOS/iPadOS.
 
 **7. Is it possible to install the IPA without a computer?**
 
