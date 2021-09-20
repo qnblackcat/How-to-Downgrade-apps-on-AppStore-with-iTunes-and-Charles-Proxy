@@ -30,7 +30,7 @@
  
 > _(Why Windows only? Apple killed iTunes 12.6.5 on macOS. Even if you manage to get iTunes 12.6.5 on your Mac, the download feature will not work.)_
 
-- **Charles Proxy**. I use version 4.2.7 but I don't think it's matter. (No need to crack Charles Proxy)
+- **Charles Proxy**. I use version 4.2.7 but I don't think it matters (No need to crack Charles Proxy).
 
 - **An Apple ID for iTunes**. Use a clone ID if you like. Keep in mind that if you switch to another ID, you'll need to re-do the process from **Step 3**.
 
@@ -45,7 +45,7 @@
 
 - If you get an error about **Library.itl** when opening iTunes: Go to `“C:\Users\Username\My Music\iTunes\”` and delete the existed **Library.itl**
 
-- Login into iTunes with your prepared Apple ID: **Account** => **Sign-in**
+- Login into iTunes with your prepared Apple ID: **Account** => **Sign-in**.
 
 - The `Build Number Version` (or `Build Number`) of the version you want to downgrade. You can get the `Build Number Version` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search).
 
@@ -78,7 +78,7 @@ _(This is where the fun begins!)_
 
 ### Step 3.2. 
 
-- Search for the app you want to downgrade. I will get the IPA of **Facebook v161.0** as an example
+- Search for the app you want to downgrade. I will get the IPA of **Facebook v161.0** as an example.
 
 ![6BD0iOX](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/6BD0iOX.png) 
 
@@ -135,11 +135,11 @@ _(This is where the fun begins!)_
 
 > **Windows**: It is a pain in the neck to install the IPA via iTunes. We will avoid iTunes. 3uTools & iMazing are good alternatives.
 
-- **3uTools**: Drag & Drop the IPA into the Apps tab
+- **3uTools**: Drag & Drop the IPA into the Apps tab.
 
 ![3u](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/1534755814062064808.gif)
 
-- **iMazing**: Manage Apps => Device Tab => Drag & Drop the IPA into the window. _(Note: iMazing **does** work on Windows, but I'm too lazy to setup iMazing on Windows just for 2 screenshots)_
+- **iMazing**: Manage Apps => Device Tab => Drag & Drop the IPA into the window. _(Note: iMazing **does** work on Windows, but I'm too lazy to setup iMazing on Windows just for 2 screenshots)._
 
 ![iMazing](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1832.PNG)
 
@@ -157,7 +157,7 @@ _(This is where the fun begins!)_
 
 **2. I got errors installing the IPA via AltStore/Sideloadly/...**
 
-> - Again, the IPA is encrypted with your purchased ID. **DO NOT** sideload it. I mentioned how to install the ipa in [Step 4](#installipa). _(Keep in mind that you only sideload **decrypted** IPA!)_
+> - Again, the IPA is encrypted with your purchased ID. **DO NOT** sideload it. I mentioned how to install the ipa in [Step 4](#installipa). _(Keep in mind that you only sideload **decrypted** IPA!)._
 
 **3. What happens if I use another Apple ID?**
 
