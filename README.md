@@ -23,6 +23,8 @@
 
 - You can get the old version of any apps as long as that version is still **available** on AppStore.
 
+- You also can downgrade macOS apps from AppStore with this method! _(thanks u/Maren0000 for the idea!)_
+
 
 # II. Requirements
 
@@ -80,6 +82,8 @@ _(This is where the fun begins!)_
 
 - Search for the app you want to downgrade. I will get the IPA of **Facebook v161.0** as an example.
 
+- If the app is removed from AppStore, but still available in your **Purchased tab**: it can be found in **Account** => **Purchased**.
+
 ![6BD0iOX](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/6BD0iOX.png) 
 
 
@@ -117,7 +121,9 @@ _(This is where the fun begins!)_
 
 > **Note: You ONLY need to do the first 3 steps once time. Next time you downgrade an app, you'll start from this step (Step 4).**
 
-- Go back to iTunes and download Facebook, again! **Charles Proxy** will automatically show the **Breakpoint popup**: **Edit Request** => **XML Text** => Replace the current `Build Number Version` of Facebook with the `Build Number` of **Facebook v161.0** (`826067593`) => **Execute** => **Execute**. Now iTunes will download **Facebook v161.0** instead of the latest version.
+- Go back to iTunes and download Facebook, again! **Charles Proxy** will automatically show the **Breakpoint popup**. 
+
+- **Edit Request** => **XML Text** => Replace the current `Build Number Version` of Facebook with the `Build Number` of **Facebook v161.0** (`826067593`) => **Execute** => **Execute**. Now iTunes will download **Facebook v161.0** instead of the latest version.
  
 > But how do I know the `Build Number` of **Facebook v161.0** is `826067593`? - Read [Preparing Section](#preparing) carefully!
 
