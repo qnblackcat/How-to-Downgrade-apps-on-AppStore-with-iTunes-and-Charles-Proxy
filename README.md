@@ -149,7 +149,7 @@ _(This is where the fun begins!)_
 
 ![iMazing](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1832.PNG)
 
-> **macOS**: just **Airdrop** the IPA from your Mac to your phone. You can use iMazing as well.
+> **macOS**: just **Airdrop** the IPA from your Mac to your phone. You can use [Apple configurator 2](https://apps.apple.com/us/app/apple-configurator-2/id1037126344) from AppStore to install the IPA as well
 
 ![Mac](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/Screen%20Shot%202021-09-20%20at%2009.22.02.png)
 
