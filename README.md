@@ -26,7 +26,7 @@
 
 # II. Requirements
 
-- **iTunes 12.6.5** - the latest version of iTunes that supports download apps. [Download here](https://support.apple.com/us/HT208079) (directly from Apple).
+- **iTunes 12.6.5** - the latest version of iTunes that supports download apps. [Download here](https://support.apple.com/en-us/HT208079) (directly from Apple).
 
 - **A Windows machine**: Windows XP/7/10 are supported, not tested on Windows 11 yet.
 
