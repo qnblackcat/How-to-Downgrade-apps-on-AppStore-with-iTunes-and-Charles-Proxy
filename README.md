@@ -23,7 +23,7 @@
 
 - You can get the old version of any apps as long as that version is still **available** on AppStore.
 
-- You also can downgrade macOS apps from AppStore with this method! _(thanks u/Maren0000 for the idea!)_
+- You also can downgrade macOS apps from AppStore with this method! _(thanks u/notjosh3 for the idea!)_
 
 
 # II. Requirements
