@@ -32,7 +32,7 @@
 
 - **A Windows machine**: Windows XP/7/10 are supported, not tested on Windows 11 yet.
 
-- **Charles Proxy**. I use version 4.2.7 but I don't think it matters (No need to crack Charles Proxy). Here is the link if you're too lazy to Google it. [Dropbox](https://www.dropbox.com/s/nrp4obp0ctcwn9e/Charles%20Proxy%204.2.7.rar?dl=0)
+- **Charles Proxy**. I use version 4.2.7 but I don't think it matters (No need to _crack_ Charles Proxy). [Download here](https://www.charlesproxy.com/download/)/ [Version 4.2.7](https://www.dropbox.com/s/nrp4obp0ctcwn9e/Charles%20Proxy%204.2.7.rar?dl=0)
 
 - **An Apple ID for iTunes**. Use a clone ID if you like. Keep in mind that if you switch to another ID, you'll need to re-do the process from **Step 3**.
 
@@ -149,7 +149,7 @@ _(This is where the fun begins!)_
 
 ![iMazing](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1832.PNG)
 
-> **macOS**: just **Airdrop** the IPA from your Mac to your phone. You can use [Apple configurator 2](https://apps.apple.com/us/app/apple-configurator-2/id1037126344) from AppStore to install the IPA as well
+> **macOS**: **Airdrop** the IPA from your Mac to your phone. You can use [Apple configurator 2](https://apps.apple.com/us/app/apple-configurator-2/id1037126344) to install the IPA as well.
 
 ![Mac](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/Screen%20Shot%202021-09-20%20at%2009.22.02.png)
 
@@ -160,8 +160,8 @@ _(This is where the fun begins!)_
 **1. Can I share the IPA with my friends?**
 
 > - **Absolutely yes!** However, you have to give them the IPA **with the Apple ID you used to get the IPA**. Why? Because the first time they open your app, they will be asked to enter the purchased ID. That's how iOS works.
-
-> - Don't want to share your main account? Just use a clone Apple ID.
+>
+> - Don't want to share your main account? Use a clone Apple ID then.
 
 **2. Can Apple revoke my IPA?**
 
@@ -169,11 +169,11 @@ _(This is where the fun begins!)_
 
 **3. I got errors installing the IPA via AltStore/Sideloadly/...**
 
-> - Again, the IPA is **encrypted** with your purchase ID. **DO NOT** sideload it. I mentioned how to install the ipa in [Step 4](#installipa). _(Keep in mind that you only sideload **decrypted** IPA!)._
+> - Again, the IPA is **encrypted** with your purchase ID. **DO NOT** sideload it. I mentioned how to install the ipa in [Step 4](#installipa). _(FYI: you only sideload **decrypted** IPA, NOT **encrypted** IPA!)._
 
-**4. Can I install the IPA via Filza?**
+**4. Can I install the IPA from iTunes via Filza?**
 
-> Not sure why you need the IPA when you already had [[AppStore++]] or [[AppAdmin]]. But yeah, you can install the IPA using Filza.
+>  Yeah, you can install the IPA using Filza.
 
 **5. What happens if I use another Apple ID?**
 
@@ -181,7 +181,7 @@ _(This is where the fun begins!)_
 
 **6. Apps crash on openning?**
 
-> - Most likely the version is too old and not compatible with your current iOS/iPadOS.
+> - Most likely the version is too old and not compatible with your current iOS/iPadOS anymore.
 
 **7. Is it possible to install the IPA without a computer?**
 
