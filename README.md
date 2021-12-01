@@ -157,32 +157,36 @@ _(This is where the fun begins!)_
 
 # IV. FAQ
 
-**1. Can I share the IPA with my friends?**
+### 1. Can I share the IPA with my friends?
 
-> - **Absolutely yes!** However, you have to give them the IPA **with the Apple ID you used to get the IPA**. Why? Because the first time they open your app, they will be asked to enter the purchased ID. That's how iOS works.
->
-> - Don't want to share your main account? Use a clone Apple ID then.
+- **Absolutely yes!** However, you have to give them the IPA **with the Apple ID you used to get the IPA**. Why? Because the first time they open your app, they will be asked to enter the purchased ID. That's how iOS works.
 
-**2. Can Apple revoke my IPA?**
+- Don't want to share your main account? Use a clone Apple ID then.
 
-> - **No, they can't!** If you use iOS long enough, I'm sure you remember the time when we can download IPA directly from iTunes. Our IPAs came from iTunes just like an app from AppStore. Apple can do nothing about it.
+### 2. Can Apple revoke my IPA?
 
-**3. I got errors installing the IPA via AltStore/Sideloadly/...**
+- **No, they can't!** If you use iOS long enough, I'm sure you remember the time when we can download IPA directly from iTunes. Our IPAs came from iTunes just like an app from AppStore. Apple can do nothing about it.
 
-> - Again, the IPA is **encrypted** with your purchase ID. **DO NOT** sideload it. I mentioned how to install the ipa in [Step 4](#installipa). _(FYI: you only sideload **decrypted** IPA, NOT **encrypted** IPA!)._
+### 3. Can the app be able to receive push notifications?
 
-**4. Can I install the IPA from iTunes via Filza?**
+- Again, the IPA comes from iTunes, which is the same as AppStore... So **YES**, it works just like an app from AppStore.
 
->  Yeah, you can install the IPA using Filza.
+### 4. I got errors installing the IPA via AltStore/Sideloadly/...
 
-**5. What happens if I use another Apple ID?**
+- Again, the IPA is **encrypted** with your purchase ID. **DO NOT** sideload it. I mentioned how to install the ipa in [Step 4](#installipa). _(FYI: you only sideload **decrypted** IPA, NOT **encrypted** IPA!)._
 
-> - You have to re-start the process from **Step 3**.
+### 5. Can I install the IPA from iTunes via Filza?
 
-**6. Apps crash on openning?**
+- Yeah, you can install the IPA using Filza.
 
-> - Most likely the version is too old and not compatible with your current iOS/iPadOS anymore.
+### 6. What happens if I use another Apple ID?
 
-**7. Is it possible to install the IPA without a computer?**
+- You have to re-start the process from **Step 3**.
 
-> - **Yes, it is possible!** However, it requires more additional Steps. I may add it in the future. 
+### 7. Apps crash on openning?
+
+- Most likely the version is too old and not compatible with your current iOS/iPadOS anymore.
+
+### 8. Is it possible to install the IPA without a computer?
+
+- **Yes, it is possible!** However, it requires more additional Steps. I may add it in the future. 
