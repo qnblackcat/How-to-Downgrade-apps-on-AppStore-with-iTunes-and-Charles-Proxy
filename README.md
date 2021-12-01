@@ -165,15 +165,16 @@ _(This is where the fun begins!)_
 
 ### 2. Can Apple revoke my IPA?
 
-- **No, they can't!** If you use iOS long enough, I'm sure you remember the time when we can download IPA directly from iTunes. Our IPAs came from iTunes just like an app from AppStore. Apple can do nothing about it.
+- **No, they can't!** If you use iOS long enough, I'm sure you remember that time when we can download IPA directly from iTunes. Our IPAs came from iTunes just like an app from AppStore. Apple can do nothing about it.
 
 ### 3. Can the app be able to receive push notifications?
 
-- Again, the IPA comes from iTunes, which is the same as AppStore... So **YES**, it works just like an app from AppStore.
+- Again, the IPA comes from iTunes, which is the same as AppStore... So **YES**, it works like an app from AppStore.
 
 ### 4. I got errors installing the IPA via AltStore/Sideloadly/...
 
-- Again, the IPA is **encrypted** with your purchase ID. **DO NOT** sideload it. I mentioned how to install the ipa in [Step 4](#installipa). _(FYI: you only sideload **decrypted** IPA, NOT **encrypted** IPA!)._
+- Again, the IPA is **encrypted** with your purchase ID. **DO NOT** sideload it. I mentioned how to install the ipa in **Step 4**.
+> (FYI: you only sideload **decrypted** IPA. You DO NOT sideload **encrypted** IPA!)._
 
 ### 5. Can I install the IPA from iTunes via Filza?
 
