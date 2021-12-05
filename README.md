@@ -30,7 +30,7 @@
 
 - **iTunes 12.6.5** - the latest version of iTunes that supports download apps. [Download here](https://support.apple.com/en-us/HT208079) (directly from Apple).
 
-- **A Windows machine**: Windows XP/7/10 are supported, not tested on Windows 11 yet.
+- **A Windows machine**: Windows XP/7/10/11 are supported.
 
 - **Charles Proxy**. I use version 4.2.7 but I don't think it matters (No need to _crack_ Charles Proxy). [Download here](https://www.charlesproxy.com/download/)/ [Version 4.2.7](https://www.dropbox.com/s/nrp4obp0ctcwn9e/Charles%20Proxy%204.2.7.rar?dl=0)
 
@@ -65,7 +65,7 @@
 
 ![7](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/7.png)
 
-_**Congrats! You just installed Charles Proxy Certificate!**_
+_**Congrats! You just installed Charles Proxy Certificate! See the FAQ section for how to remove the Charles Proxy Certificate if you don't need it anymore**_
 
 
 
@@ -173,8 +173,8 @@ _(This is where the fun begins!)_
 
 ### 4. I got errors installing the IPA via AltStore/Sideloadly/...
 
-- Again, the IPA is **encrypted** with your purchase ID. **DO NOT** sideload it. I mentioned how to install the ipa in **Step 4**.
-> (FYI: you only sideload **decrypted** IPA. You DO NOT sideload **encrypted** IPA!)._
+- The IPA is **encrypted** with your purchase ID. You **CAN NOT** sideload it. I mentioned how to install the ipa in **Step 4**.
+> _(FYI: you only sideload **decrypted** IPA. You DO NOT sideload **encrypted** IPA!)._
 
 ### 5. Can I install the IPA from iTunes via Filza?
 
@@ -188,6 +188,14 @@ _(This is where the fun begins!)_
 
 - Most likely the version is too old and not compatible with your current iOS/iPadOS anymore.
 
-### 8. Is it possible to install the IPA without a computer?
+### 8. How do I remove Charles Proxy Certificates?
+
+- Open **Run** window (Windows + R) and type in `certmgr.msc`
+
+- In the **certmgr** window, go to **Trusted Root Certification Authorities** - **Certificates** - Right click on **Charles Proxy CA** certificate and delete it. 
+![image](https://user-images.githubusercontent.com/52943116/144748946-435e88eb-56da-4574-b112-795f63440e1c.png)
+
+
+### 9. Is it possible to install the IPA without a computer?
 
 - **Yes, it is possible!** However, it requires more additional Steps. I may add it in the future. 
