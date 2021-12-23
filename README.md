@@ -139,11 +139,7 @@ _(This is where the fun begins!)_
 
 ![GcbjR](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/GcbjRwn.png)
 
-> **Windows**: It is a pain in the neck to install the IPA via iTunes. We will avoid iTunes. 3uTools & iMazing are good alternatives.
-
-- **3uTools**: Drag & Drop the IPA into the Apps tab.
-
-![3u](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/1534755814062064808.gif)
+> **Windows**: It is a pain in the neck to install the IPA via iTunes. We will avoid iTunes. iMazing is a good alternative.
 
 - **iMazing**: Manage Apps => Device Tab => Drag & Drop the IPA into the window. _(Note: iMazing **does** work on Windows, but I'm too lazy to setup iMazing on Windows just for 2 screenshots)._
 
