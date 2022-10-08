@@ -20,9 +20,9 @@
 ***
 
 # II. Requirements
-- **iTunes 12.6.5** - the latest version of iTunes that supports download apps. Download: [Apple](https://support.apple.com/en-us/HT208079)/ [backup](https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EeTCq3PxQGxEt0HH4CWb9loB_poQsJFiqgxoqlKGUPXR2Q?e=BOwGm2).
+- **iTunes 12.6.5** - the latest version of iTunes that supports download apps. Download: [Apple (archive)](http://web.archive.org/web/20171009185131if_/https://secure-appldnld.apple.com/itunes12/091-33626-20170922-F51D3530-A003-11E7-8324-03D19A97A551/iTunes64Setup.exe)/ [backup](https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EeTCq3PxQGxEt0HH4CWb9loB_poQsJFiqgxoqlKGUPXR2Q?e=BOwGm2).
 - **A Windows machine**: Windows XP/7/10/11 are supported.
-- **Charles Proxy**: I use version 4.2.7 but I don't think it matters (No need to _crack_ Charles Proxy). [Download here](https://www.charlesproxy.com/download/)/[Version 4.2.7](https://www.dropbox.com/s/nrp4obp0ctcwn9e/Charles%20Proxy%204.2.7.rar?dl=0)
+- **Charles Proxy**: I use version 4.2.7 but I don't think it matters (No need to _crack_ Charles Proxy). [Download here](https://www.charlesproxy.com/assets/release/4.2.7/charles-proxy-4.2.7-win64.msi)/ [back up](https://www.dropbox.com/s/nrp4obp0ctcwn9e/Charles%20Proxy%204.2.7.rar?dl=0)
 - **An Apple ID for iTunes**: Use a spare ID if you like. Keep in mind that if you switch to another ID, you'll need to re-do the process from [Step 3](#step-3-create-the-breakpoint).
 ***
 
@@ -81,6 +81,7 @@ _(This is where the fun begins!)_
 ### _Note: You ONLY need to do the first 3 steps once. Next time you downgrade an app, you'll start from this step (Step 4)._
 - Go back to iTunes and download Facebook, again! **Charles Proxy** will automatically show the **Breakpoint popup**. 
 - **Edit Request** > **XML Text** > Replace the current `Build Number Version` of Facebook with the `Build Number` of **Facebook v161.0** (`826067593`) > **Execute** > **Execute**. Now iTunes will download **Facebook v161.0** instead of the latest version.
+- In some cases, the **Breakpoint popup** can appear twice, simply edit the current `Build Number Version` like above one more time and you're good to go.
 
 > But how do I know the `Build Number` of **Facebook v161.0** is `826067593`? - Read [Preparing Section](#preparing) carefully!
 
@@ -100,7 +101,7 @@ _**It is a pain in the neck to install the IPA via iTunes. That's why we will no
 - **[AppManager](https://github.com/kawaiizenbo/AppManager) (recommended)**: Plug your device into your PC, click on **`Install new`** and select the IPA.
 ![image](https://user-images.githubusercontent.com/52943116/160886525-868d249d-d1e8-431b-af16-215696f4eaec.png)
 
-- **3uTools**: Drag & drop the IPA into the Apps tab.
+- **3uTools (may not safe, not recommended)**: Drag & drop the IPA into the Apps tab.
 ![3u](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/1534755814062064808.gif)
 
 - **iMazing**: **`Manage Apps > Device Tab > Drag & Drop the IPA into the window.`** _(Note: iMazing **does** work on Windows, but I'm too lazy to setup iMazing on Windows just for 2 screenshots)._
