@@ -32,7 +32,7 @@
 - After you install iTunes succesfully, go to **`Edit > Preferences > Avanced`** > Untick **`Check for new software updates automatically`** to prevent iTunes from asking for update.
 - If you get an error about **Library.itl** when opening iTunes: Go to **`C:\Users\Username\My Music\iTunes\`** and delete the existed **Library.itl**
 - Login to iTunes with your prepared Apple ID: **`Account > Sign-in`**.
-- The **`Build Number Version`** (or `Build Number`) of the version you want to downgrade. You can get the `Build Number Version` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search).
+- The **`Build version number`** (or `Build Number`) of the version you want to downgrade. You can get the `Build version number` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search).
 ![Tool Lancety](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1823.PNG)
 ***
 
@@ -115,33 +115,38 @@ Simply Airdrop the IPA from your Mac to your device. You can use [Apple configur
 
 
 # IV. FAQ
-## 1. Can I share the IPA with my friends?
+## 1. I can't see the Build number of the version I need on Tool Lantency?
+- The easiest way to get the Build version number is to ask a jailbroken user who has AppStore++ installed. Just tell them the app & the version you need to get.
+- If you have nobody to ask, you could try this way. It will take a while depending on your luck. https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/issues/8#issuecomment-1272240225
+- Still can't find the Build version number? Well, open a new issue, I will help you.
+
+## 2. Can I share the IPA with my friends?
 - **Absolutely yes!** However, you have to give them the IPA **with the Apple ID you used to get the IPA**. Why? Because the first time they open your app, they will be asked to enter the purchased ID. That's how iOS works.
 - Don't want to share your main account? Use a clone Apple ID then.
 
-## 2. Can Apple revoke my IPA?
+## 3. Can Apple revoke my IPA?
 - **No, they can't!** If you use iOS long enough, I'm sure you remember that time when we can download IPA directly from iTunes. Our IPAs came from iTunes just like an app from AppStore. Apple can do nothing about it.
 
-## 3. Can the app be able to receive push notifications?
+## 4. Can the app be able to receive push notifications?
 - Again, the IPA comes from iTunes, which is the same as AppStore... So **YES**, it works like an app from AppStore.
 
-## 4. I got errors installing the IPA via AltStore/Sideloadly/...
+## 5. I got errors installing the IPA via AltStore/Sideloadly/...
 - The IPA is **encrypted** with your purchase ID. You **CAN NOT** sideload it. I mentioned how to install the ipa in [Step 4](#step-4-get-the-old-version-of-the-appplication-ipa).
 _(FYI: you only sideload **decrypted** IPA. You DO NOT sideload **encrypted** IPA!)._
 
-## 5. Can I install the IPA from iTunes via Filza?
+## 6. Can I install the IPA from iTunes via Filza?
 - Yeah, you can install the IPA using Filza.
 
-## 6. What happens if I use another Apple ID?
+## 7. What happens if I use another Apple ID?
 - You have to re-start the process from [Step 3](#step-3-create-the-breakpoint).
 
-## 7. Apps crash on openning?
+## 8. Apps crash on openning?
 - Most likely the version is too old and not compatible with your current iOS/iPadOS anymore.
 
-## 8. How do I remove Charles Proxy Certificates?
+## 9. How do I remove Charles Proxy Certificates?
 - Open **Run** window (Windows + R) and type in `certmgr.msc`
 - In the **certmgr** window, go to **Trusted Root Certification Authorities** - **Certificates** - Right click on **Charles Proxy CA** certificate and delete it. 
 ![image](https://user-images.githubusercontent.com/52943116/144748946-435e88eb-56da-4574-b112-795f63440e1c.png)
 
-## 9. Is it possible to install the IPA without a computer?
+## 10. Is it possible to install the IPA without a computer?
 - **Yes, it is 100% possible!**. However, it requires more additional Steps. I may add it in the future. 
