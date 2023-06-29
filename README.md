@@ -35,7 +35,7 @@ _If you think this guide is useful, considering support me via [Paypal](https://
 - If you get an error about **Library.itl** when opening iTunes: Go to **`C:\Users\Username\My Music\iTunes\`** and delete the existed **Library.itl**
 - Login to iTunes with your prepared Apple ID: **`Account > Sign-in`**.
 - The **`Build version number`** (or `Build Number`) of the version you want to downgrade. You can get the `Build version number` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search).
-![Tool Lancety](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1823.PNG)
+![Tool Lancety](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1823.PNG). Alternatively if you are unable to get it, you can look at the buyProduct content and search for softwareVersionExternalIdentifiers, with the bottom in the list being the latest version, and the rest is just trial and error.
 ***
 
 
