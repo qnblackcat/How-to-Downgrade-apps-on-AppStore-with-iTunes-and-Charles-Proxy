@@ -31,11 +31,15 @@ _If you think this guide is useful, considering support me via [Paypal](https://
 # III. Getting Started
 ## Step 1. Preparing
 - Nothing special about Charles Proxy so I'll focus on iTunes. 
-- After you install iTunes succesfully, go to **`Edit > Preferences > Avanced`** > Untick **`Check for new software updates automatically`** to prevent iTunes from asking for update.
+- After you install iTunes successfully, go to **`Edit > Preferences > Avanced`** > Untick **`Check for new software updates automatically`** to prevent iTunes from asking for update.
 - If you get an error about **Library.itl** when opening iTunes: Go to **`C:\Users\Username\My Music\iTunes\`** and delete the existed **Library.itl**
 - Login to iTunes with your prepared Apple ID: **`Account > Sign-in`**.
-- The **`Build version number`** (or `Build Number`) of the version you want to downgrade. You can get the `Build version number` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search).
-![Tool Lancety](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1823.PNG). Alternatively if you are unable to get it, you can look at the buyProduct content and search for softwareVersionExternalIdentifiers, with the bottom in the list being the latest version, and the rest is just trial and error.
+- The **`Build version number`** (or `Build Number`) of the version you want to downgrade: 
+  - Method 1: You can get the `Build version number` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search).
+![Tool Lancety](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1823.PNG)
+  - Method 2: Ask a jailbroken user who has AppStore++ installed get the `Build version number` for you.
+  - Method 3: Look at the buyProduct content and search for `softwareVersionExternalIdentifier`, with the bottom in the list being the latest version, and the rest is just trial and error.
+  - Method 4: Kinda the same as method 3. See [here](https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/issues/8#issuecomment-1272240225).
 ***
 
 
