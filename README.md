@@ -16,9 +16,9 @@ _If you think this guide is useful, considering support me via [Paypal](https://
 
 # I. Notes
 - **iTunes 12.6.5 only works on Windows**. Apple killed iTunes 12.6.5 on macOS. Even if you manage to get iTunes 12.6.5 on your Mac, the download feature will not work.
-- The Guide seems complicated, but it's very easy to follow. Plus, you only need to do Step 1, 2, and 3 for the first time (There are 5 steps in total).
+- The Guide seems complicated, but it's very easy to follow. Plus, you only need to do Step 1, 2, and 3 once (There are 5 steps in total).
 - Jailbreak is **NOT** needed. Since the iPA comes directly from iTunes, it's encrypted and can be installed without Sideload. The IPA is 100% legit!
-- You can get the old version of any apps as long as that version is still **available** on AppStore.
+- You can get any version of any apps, as long as that version is still **available** on AppStore.
 ***
 
 # II. Requirements
@@ -38,8 +38,8 @@ _If you think this guide is useful, considering support me via [Paypal](https://
   - Method 1: You can get the `Build version number` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search).
 ![Tool Lancety](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1823.PNG)
   - Method 2: Ask a jailbroken user who has AppStore++ installed get the `Build version number` for you.
-  - Method 3: Look at the buyProduct content and search for `softwareVersionExternalIdentifier`, with the bottom in the list being the latest version, and the rest is just trial and error.
-  - Method 4: Kinda the same as method 3. See [here](https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/issues/8#issuecomment-1272240225).
+  - Method 3: Look at the `buyProduct` content and search for `softwareVersionExternalIdentifier`, the last line is the latest version, keep trying until you succeed.
+  - Method 4: Almost the same as method 3. See [here](https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/issues/8#issuecomment-1272240225).
 ***
 
 
@@ -84,7 +84,7 @@ _(This is where the fun begins!)_
 
 
 ## Step 4. Get the old version of the appplication (IPA)
-### _Note: You ONLY need to do the first 3 steps once. Next time you downgrade an app, you'll start from this step (Step 4)._
+### _Note: You only need to do all the previous steps once. Next time you downgrade an app, you'll start from this step (Step 4)._
 - Go back to iTunes and download Facebook, again! **Charles Proxy** will automatically show the **Breakpoint popup**. 
 - **Edit Request** > **XML Text** > Replace the current `Build Number Version` of Facebook with the `Build Number` of **Facebook v161.0** (`826067593`) > **Execute** > **Execute**. Now iTunes will download **Facebook v161.0** instead of the latest version.
 - In some cases, the **Breakpoint popup** can appear twice, simply edit the current `Build Number Version` like above one more time and you're good to go.
@@ -102,16 +102,16 @@ _(This is where the fun begins!)_
 
 ### 5.1. Windows
 
-_**It is a pain in the neck to install the IPA via iTunes. That's why we will not iTunes. AppManager & 3uTools & iMazing are good alternatives.**_
+_**It is a pain in the neck to install the IPA via iTunes. That's why we will not iTunes. AppManager & iMazing are good alternatives. 3uTools is not recommended**_
 
 - **[AppManager](https://github.com/kawaiizenbo/AppManager) (recommended)**: Plug your device into your PC, click on **`Install new`** and select the IPA.
 ![image](https://user-images.githubusercontent.com/52943116/160886525-868d249d-d1e8-431b-af16-215696f4eaec.png)
 
-- **3uTools (may not safe, not recommended)**: Drag & drop the IPA into the Apps tab.
-![3u](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/1534755814062064808.gif)
-
 - **iMazing**: **`Manage Apps > Device Tab > Drag & Drop the IPA into the window.`** _(Note: iMazing **does** work on Windows, but I'm too lazy to setup iMazing on Windows just for 2 screenshots)._
 ![iMazing](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1832.PNG)
+
+- **3uTools (may not safe, not recommended)**: Drag & drop the IPA into the Apps tab.
+![3u](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/1534755814062064808.gif)
 
 ### macOS
 Simply Airdrop the IPA from your Mac to your device. You can use [Apple configurator 2](https://apps.apple.com/us/app/apple-configurator-2/id1037126344) to install the IPA as well.
