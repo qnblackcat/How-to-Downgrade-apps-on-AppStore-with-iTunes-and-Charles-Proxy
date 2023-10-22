@@ -17,7 +17,7 @@ _If you think this guide is useful, considering support me via [Paypal](https://
 # I. Notes
 - **iTunes 12.6.5 only works on Windows**. Apple killed iTunes 12.6.5 on macOS. Even if you manage to get iTunes 12.6.5 on your Mac, the download feature will not work.
 - The Guide seems complicated, but it's very easy to follow. Plus, you only need to do Step 1, 2, and 3 once (There are 5 steps in total).
-- Jailbreak is **NOT** needed. Since the iPA comes directly from iTunes, it's encrypted and can be installed without Sideload. The IPA is 100% legit!
+- Jailbreak is **NOT** needed. Since the iPA comes directly from iTunes, it's encrypted and can be installed directly, no sideloading. The IPA is 100% legit!
 - You can get any version of any apps, as long as that version is still **available** on AppStore.
 ***
 
@@ -35,10 +35,11 @@ _If you think this guide is useful, considering support me via [Paypal](https://
 - If you get an error about **Library.itl** when opening iTunes: Go to **`C:\Users\Username\My Music\iTunes\`** and delete the existed **Library.itl**
 - Login to iTunes with your prepared Apple ID: **`Account > Sign-in`**.
 - The **`Build version number`** (or `Build Number`) of the version you want to downgrade: 
-  - Method 1: You can get the `Build version number` of most apps on AppStore from [Tool Lantency](https://tools.lancely.tech/apple/app-search).
-![Tool Lancety](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1823.PNG)
+  - Method 1: You can get the `Build version number` of most apps on AppStore from [ipaarchive](https://ipaarchive.com/) or [Tool Lantency (backup)](https://tools.lancely.tech/apple/app-search).
+![Screen Shot 2023-10-22 at 21 23 50](https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/assets/52943116/7e45d260-dbe9-4d6c-b744-ef4a12c12132)
+
   - Method 2: Ask a jailbroken user who has AppStore++ installed get the `Build version number` for you.
-  - Method 3: Look at the `buyProduct` content and search for `softwareVersionExternalIdentifier`, the last line is the latest version, keep trying until you succeed.
+  - Method 3: Look at the `buyProduct` content and search for `softwareVersionExternalIdentifier`, the very bottom line is equal to the latest version, keep trying until you succeed.
   - Method 4: Almost the same as method 3. See [here](https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/issues/8#issuecomment-1272240225).
 ***
 
@@ -121,13 +122,13 @@ Simply Airdrop the IPA from your Mac to your device. You can use [Apple configur
 
 
 # IV. FAQ
-## 1. I can't see the Build number of the version I need on Tool Lantency?
+## 1. I can't see the Build number of the version I need on neither ipaarchive nor Tool Lantency?
 - The easiest way to get the Build version number is to ask a jailbroken user who has AppStore++ installed. Just tell them the app & the version you need to get.
 - If you have nobody to ask, you could try this way. It will take a while depending on your luck. https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/issues/8#issuecomment-1272240225
-- Still can't find the Build version number? Well, open a new issue, I will help you.
+- Still can't find the Build version number? Well, open a new issue, I will help you. You must include the AppStore's url of the app.
 
 ## 2. Can I share the IPA with my friends?
-- **Absolutely yes!** However, you have to give them the IPA **with the Apple ID you used to get the IPA**. Why? Because the first time they open your app, they will be asked to enter the purchased ID. That's how iOS works.
+- **Absolutely yes!** However, you have to give them **the Apple ID you used to get the IPA**. Why? Because the first time they open your app, they will be asked to enter the purchased ID. 
 - Don't want to share your main account? Use a clone Apple ID then.
 
 ## 3. Can Apple revoke my IPA?
