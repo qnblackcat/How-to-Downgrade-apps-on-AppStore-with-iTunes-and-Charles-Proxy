@@ -19,10 +19,10 @@ _If you think this guide is useful, considering support me via [Paypal](https://
 - The guide seems complicated, but it's very easy to follow. Plus, you only need to do Steps 1, 2, and 3 once (there are 5 steps in total).
 - Jailbreak is **NOT** needed. Since the IPA comes directly from iTunes, it's encrypted and can be installed directly, no sideloading. The IPA is 100% legit!
 - You can get any version of any app, as long as that version is still **available** on the App Store.
-
+  
 # II. Requirements
 - **iTunes 12.6.5** - the latest version of iTunes that supports download apps. Download: Apple iTunes 12.6.5.3 - [32bit](https://secure-appldnld.apple.com/itunes12/091-87820-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A5/iTunesSetup.exe) | [64bit](https://secure-appldnld.apple.com/itunes12/091-87819-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A6/iTunes64Setup.exe) / [(backup)](https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EeTCq3PxQGxEt0HH4CWb9loB_poQsJFiqgxoqlKGUPXR2Q?e=BOwGm2).
-- **A Windows machine**: Windows XP/7/10/11 are supported. You can also use a VM Windows.
+- **A Windows machine**: Windows XP/7/10/11 are supported. You can also use a VM Windows. Tested on an Apple Silicon mac with Paralles Desktop & Windows 11. Boot Camp should work as well.
 - **Charles Proxy**: I use version 4.2.7 but I don't think it matters (No need to _crack_ Charles Proxy). [Download here](https://www.charlesproxy.com/assets/release/4.2.7/charles-proxy-4.2.7-win64.msi)/ [back up](https://www.dropbox.com/s/nrp4obp0ctcwn9e/Charles%20Proxy%204.2.7.rar?dl=0)
 - **An Apple ID for iTunes**: Use a spare ID if you like. Keep in mind that if you switch to another ID, you'll need to re-do the process from [Step 3](#step-3-create-the-breakpoint).
 ***
