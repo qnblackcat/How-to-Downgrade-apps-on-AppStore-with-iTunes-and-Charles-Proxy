@@ -19,9 +19,10 @@ _If you think this guide is useful, considering support me via [Paypal](https://
 - The guide seems complicated, but it's very easy to follow. Plus, you only need to do Steps 1, 2, and 3 once (there are 5 steps in total).
 - Jailbreak is **NOT** needed. Since the IPA comes directly from iTunes, it's encrypted and can be installed directly, no sideloading. The IPA is 100% legit!
 - You can get any version of any app, as long as that version is still **available** on the App Store.
+- Supports both iOS and iPadOS apps.
   
 # II. Requirements
-- **iTunes 12.6.5** - the latest version of iTunes that supports download apps. Download: Apple iTunes 12.6.5.3 - [32bit](https://secure-appldnld.apple.com/itunes12/091-87820-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A5/iTunesSetup.exe) | [64bit](https://secure-appldnld.apple.com/itunes12/091-87819-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A6/iTunes64Setup.exe) / [(backup)](https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EeTCq3PxQGxEt0HH4CWb9loB_poQsJFiqgxoqlKGUPXR2Q?e=BOwGm2).
+- **iTunes 12.6.5** - the latest version of iTunes that supports download apps. Download: Apple iTunes 12.6.5.3 - [32bit](https://secure-appldnld.apple.com/itunes12/091-87820-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A5/iTunesSetup.exe) | [64bit](https://secure-appldnld.apple.com/itunes12/091-87819-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A6/iTunes64Setup.exe) | [(backup)](https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EeTCq3PxQGxEt0HH4CWb9loB_poQsJFiqgxoqlKGUPXR2Q?e=BOwGm2).
 - **A Windows machine**: Windows XP/7/10/11 are supported. You can also use a VM Windows. Tested on an Apple Silicon mac with Paralles Desktop & Windows 11. Boot Camp should work as well.
 - **Charles Proxy**: I use version 4.2.7 but I don't think it matters (No need to _crack_ Charles Proxy). [Download here](https://www.charlesproxy.com/assets/release/4.2.7/charles-proxy-4.2.7-win64.msi)/ [back up](https://www.dropbox.com/s/nrp4obp0ctcwn9e/Charles%20Proxy%204.2.7.rar?dl=0)
 - **An Apple ID for iTunes**: Use a spare ID if you like. Keep in mind that if you switch to another ID, you'll need to re-do the process from [Step 3](#step-3-create-the-breakpoint).
@@ -34,7 +35,7 @@ _If you think this guide is useful, considering support me via [Paypal](https://
 - If you get an error about **Library.itl** when opening iTunes: Go to **`C:\Users\Username\My Music\iTunes\`** and delete the existing **Library.itl**.
 - Log in to iTunes with your prepared Apple ID: **`Account > Sign-in`**.
 - The **`Build version number`** (or `Build Number`) of the version you want to downgrade:
-  - Method 1: You can get the `Build version number` of most apps on the App Store from [ipaarchive](https://ipaarchive.com/) or [Tool Lantency (backup)](https://tools.lancely.tech/apple/app-search).
+  - Method 1: You can get the `Build version number` of most apps on the App Store from [ipaarchive](https://ipaarchive.com/) or [Appstore.bilin (backup)](https://appstore.bilin.eu.org/).
     ![Screen Shot 2023-10-22 at 21 23 50](https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/assets/52943116/7e45d260-dbe9-4d6c-b744-ef4a12c12132)
 
   - Method 2: Ask a jailbroken user who has AppStore++ installed to get the `Build version number` for you.
@@ -87,17 +88,19 @@ _(This is where the fun begins!)_
 ## Step 4. Get the old version of the appplication (IPA)
 ### _Note: You only need to do all the previous steps once. Next time you downgrade an app, you'll start from this step (Step 4)._
 - Go back to iTunes and download Facebook again! **Charles Proxy** will automatically show the **Breakpoint popup**. 
-- **Edit Request** > **XML Text** > Replace the current `Build Number Version` of Facebook with the `Build Number` of **Facebook v161.0** (`826067593`) > **Execute** > **Execute**. Now iTunes will download **Facebook v161.0** instead of the latest version.
-- In some cases, the **Breakpoint popup** can appear twice. Simply edit the current `Build Number Version` like above one more time, and you're good to go.
+- **Edit Request** > **XML Text** > Replace the current `Build version number` of Facebook with the `Build Number` of **Facebook v161.0** (`826067593`) > **Execute** > **Execute**. Now iTunes will download **Facebook v161.0** instead of the latest version.
+- In some cases, the **Breakpoint popup** can appear twice. Simply edit the current `Build version number` like above one more time, and you're good to go.
 
-> But how do I know the `Build Number` of **Facebook v161.0** is `826067593`? - Read the [Preparing Section](#preparing) carefully!
+> But how do I know the `Build version number` of **Facebook v161.0** is `826067593`? - Read the [Preparing Section](#preparing) carefully 😉
 
 ![WiiLTTo](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/WiiLTTo.png)
 ![fb161](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/qv0mzsp.png)
 ***
 
 ## Step 5. Install the IPA
-- The IPA will be saved at **`C:\Users\<User>\Music\iTunes\iTunes Media\Mobile Applications`**. _**Tip:**_ Open the IPA in Explorer by going to **`iTunes > Library > Right-click on the app > Open in Explorer`**.
+- The IPA will be saved at **`C:\Users\<User>\Music\iTunes\iTunes Media\Mobile Applications`**. 
+
+_**Tip:**_ Open the IPA in Explorer by going to **`iTunes > Library > Right-click on the app > Open in Explorer`**.
 ![GcbjR](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/GcbjRwn.png)
 
 ### 5.1. Windows
@@ -114,46 +117,52 @@ _**It is a pain in the neck to install the IPA via iTunes. That's why we will no
 ![3u](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/1534755814062064808.gif)
 
 ### macOS
-Simply Airdrop the IPA from your Mac to your device. You can use [Apple Configurator 2](https://apps.apple.com/us/app/apple-configurator-2/id1037126344) to install the IPA as well.
+- If the Apple ID used to download apps on iTunes and the Apple ID used on your iPhone are the same, simply Airdrop the IPA to your phone to install it.
+- Otherwise, you can use [Apple Configurator 2](https://apps.apple.com/us/app/apple-configurator-2/id1037126344) to install the IPA.
 
 ![Mac](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/Screen%20Shot%202021-09-20%20at%2009.22.02.png)
 
 
 
 # IV. FAQ
-## 1. I can't see the Build number of the version I need on either ipaarchive or Tool Lantency?
+## 1. I can't see the Build number of the version I need on either ipaarchive or Appstore.bilin?
 - The easiest way to get the Build version number is to ask a jailbroken user who has AppStore++ installed. Just tell them the app and the version you need.
 - If you have nobody to ask, you could try this way. It will take a while depending on your luck. [More details here](https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/issues/8#issuecomment-1272240225).
 - Still can't find the Build version number? Well, open a new issue, and I will help you. You must include the AppStore's URL of the app.
 
-## 2. Can I share the IPA with my friends?
+## 2. The app forces me to update to use it!
+- There's not much you can do in this situation (unless you're jailbroken). You probably have to update it.
+
+## 3. How to prevent Appstore auto update for the downgraded app?
+- This requires Apple Configurator, so macOS only. See: https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/issues/26
+
+## 4. Can I share the IPA with my friends?
 - **Absolutely yes!** However, you have to give them **the Apple ID you used to get the IPA**. Why? Because the first time they open your app, they will be asked to enter the purchased ID.
 - Don't want to share your main account? Use a clone Apple ID then.
 
-## 3. Can Apple revoke my IPA?
+## 5. Can Apple revoke my IPA?
 - **No, they can't!** If you have used iOS long enough, you might remember the time when we could download IPA directly from iTunes. Our IPAs came from iTunes just like an app from the App Store. Apple can do nothing about it.
 
-## 4. Can the app receive push notifications?
+## 6. Can the app receive push notifications?
 - Again, the IPA comes from iTunes, which is the same as the App Store... So **YES**, it works like an app from the App Store.
 
-## 5. I got errors installing the IPA via AltStore/Sideloadly/...
+## 7. I got errors installing the IPA via AltStore/Sideloadly/...
 - The IPA is **encrypted** with your purchase ID. You **CAN NOT** sideload it. I mentioned how to install the IPA in [Step 5](#step-5-install-the-ipa).
 _(FYI: you only sideload **decrypted** IPA. You DO NOT sideload **encrypted** IPA!)._
 
-## 6. Can I install the IPA from iTunes via Filza?
+## 8. Can I install the IPA from iTunes via Filza?
 - Yes, you can install the IPA using Filza.
 
-## 7. What happens if I use another Apple ID?
+## 9. What happens if I use another Apple ID?
 - You have to restart the process from [Step 3](#step-3-create-the-breakpoint).
 
-## 8. Apps crash on opening?
+## 10. Apps crash on opening?
 - Most likely the version is too old and not compatible with your current iOS/iPadOS anymore.
 
-## 9. How do I remove Charles Proxy Certificates?
+## 11. How do I remove Charles Proxy Certificates?
 - Open the **Run** window (Windows + R) and type in `certmgr.msc`.
 - In the **certmgr** window, go to **Trusted Root Certification Authorities** - **Certificates** - Right-click on the **Charles Proxy CA** certificate and delete it. 
 ![image](https://user-images.githubusercontent.com/52943116/144748946-435e88eb-56da-4574-b112-795f63440e1c.png)
 
-## 10. Is it possible to install the IPA without a computer?
+## 11. Is it possible to install the IPA without a computer?
 - **Yes, it is 100% possible!** However, it requires additional steps. I may add it in the future.
-
