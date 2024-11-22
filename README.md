@@ -116,13 +116,16 @@ _**It is a pain in the neck to install the IPA via iTunes. That's why we will no
 - **3uTools (may not be safe, not recommended)**: Drag & drop the IPA into the Apps tab.
 ![3u](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/1534755814062064808.gif)
 
-### macOS
+### 5.2. macOS
 - If the Apple ID used to download apps on iTunes and the Apple ID used on your iPhone are the same, simply Airdrop the IPA to your phone to install it.
 - Otherwise, you can use [Apple Configurator 2](https://apps.apple.com/us/app/apple-configurator-2/id1037126344) to install the IPA.
 
 ![Mac](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/Screen%20Shot%202021-09-20%20at%2009.22.02.png)
 
-
+### 5.3. I don't have a computer (seriously?)
+1. Upload the iPA to a cloud storage that supports direct URL generation (Ex: Dropbox, archive.org, MySharePoint...)
+2. Go to [Manifest.plist Generator](https://qnblackcat.github.io/Manifest-Generator/) to generate a Manifest.plist. Upload & get its direct url.
+3. Go to [itms Generator](https://qnblackcat.github.io/Manifest-Generator/) to create an iPA installation link _(You must open the link in Safari)._
 
 # IV. FAQ
 ## 1. I can't see the Build number of the version I need on either ipaarchive or Appstore.bilin?
@@ -164,5 +167,6 @@ _(FYI: you only sideload **decrypted** IPA. You DO NOT sideload **encrypted** IP
 - In the **certmgr** window, go to **Trusted Root Certification Authorities** - **Certificates** - Right-click on the **Charles Proxy CA** certificate and delete it. 
 ![image](https://user-images.githubusercontent.com/52943116/144748946-435e88eb-56da-4574-b112-795f63440e1c.png)
 
-## 11. Is it possible to install the IPA without a computer?
-- **Yes, it is 100% possible!** However, it requires additional steps. I may add it in the future.
+## 12. Is it possible to install the IPA without a computer?
+- Yes, it is.
+  
