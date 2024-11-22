@@ -98,34 +98,38 @@ _(This is where the fun begins!)_
 ***
 
 ## Step 5. Install the IPA
-- The IPA will be saved at **`C:\Users\<User>\Music\iTunes\iTunes Media\Mobile Applications`**. 
+<details>
+  <summary><strong>5.1. Windows</strong></summary>
+  
+  - [**AppManager**](https://github.com/kawaiizenbo/AppManager) (recommended): Plug your device into your PC, click on **`Install new`** and select the IPA.
+    ![AppManager](https://user-images.githubusercontent.com/52943116/160886525-868d249d-d1e8-431b-af16-215696f4eaec.png)
 
-_**Tip:**_ Open the IPA in Explorer by going to **`iTunes > Library > Right-click on the app > Open in Explorer`**.
-![GcbjR](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/GcbjRwn.png)
+  - **iMazing**: **`Manage Apps > Device Tab > Drag & Drop the IPA into the window.`**  
+    _(Note: iMazing **does** work on Windows, but I'm too lazy to set up iMazing on Windows just for two screenshots)._  
+    ![iMazing](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1832.PNG)
 
-### 5.1. Windows
+  - **3uTools (may not be safe, not recommended)**: Drag & drop the IPA into the Apps tab.  
+    ![3uTools](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/1534755814062064808.gif)
+</details>
 
-_**It is a pain in the neck to install the IPA via iTunes. That's why we will not use iTunes. AppManager and iMazing are good alternatives. 3uTools is not recommended.**_
+<details>
+  <summary><strong>5.2. macOS</strong></summary>
+  
+  - If the Apple ID used to download apps on iTunes and the Apple ID used on your iPhone are the same, simply Airdrop the IPA to your phone to install it.
+  
+  - Otherwise, you can use [Apple Configurator 2](https://apps.apple.com/us/app/apple-configurator-2/id1037126344) to install the IPA.  
+    ![Mac](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/Screen%20Shot%202021-09-20%20at%2009.22.02.png)
+</details>
 
-- **[AppManager](https://github.com/kawaiizenbo/AppManager) (recommended)**: Plug your device into your PC, click on **`Install new`** and select the IPA.
-![image](https://user-images.githubusercontent.com/52943116/160886525-868d249d-d1e8-431b-af16-215696f4eaec.png)
-
-- **iMazing**: **`Manage Apps > Device Tab > Drag & Drop the IPA into the window.`** _(Note: iMazing **does** work on Windows, but I'm too lazy to set up iMazing on Windows just for two screenshots)._
-![iMazing](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/IMG_1832.PNG)
-
-- **3uTools (may not be safe, not recommended)**: Drag & drop the IPA into the Apps tab.
-![3u](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/1534755814062064808.gif)
-
-### 5.2. macOS
-- If the Apple ID used to download apps on iTunes and the Apple ID used on your iPhone are the same, simply Airdrop the IPA to your phone to install it.
-- Otherwise, you can use [Apple Configurator 2](https://apps.apple.com/us/app/apple-configurator-2/id1037126344) to install the IPA.
-
-![Mac](https://raw.githubusercontent.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/main/Screenshots/Screen%20Shot%202021-09-20%20at%2009.22.02.png)
-
-### 5.3. I don't have a computer (seriously?)
-1. Upload the iPA to a cloud storage that supports direct URL generation (Ex: Dropbox, archive.org, MySharePoint...)
-2. Go to [Manifest.plist Generator](https://qnblackcat.github.io/Manifest-Generator/) to generate a Manifest.plist. Upload & get its direct url.
-3. Go to [itms Generator](https://qnblackcat.github.io/Manifest-Generator/) to create an iPA installation link _(You must open the link in Safari)._
+<details>
+  <summary><strong>5.3. I don't have a computer (seriously?)</strong></summary>
+  
+  1. Upload the iPA to a cloud storage that supports direct URL generation (Ex: Dropbox, archive.org, MySharePoint...).  
+  
+  2. Go to [Manifest.plist Generator](https://qnblackcat.github.io/Manifest-Generator/) to generate a Manifest.plist. Upload & get its direct url.  
+  
+  3. Go to [itms Generator](https://qnblackcat.github.io/Manifest-Generator/) to create an iPA installation link _(You must open the link in Safari)._  
+</details>
 
 # IV. FAQ
 ## 1. I can't see the Build number of the version I need on either ipaarchive or Appstore.bilin?
@@ -168,5 +172,5 @@ _(FYI: you only sideload **decrypted** IPA. You DO NOT sideload **encrypted** IP
 ![image](https://user-images.githubusercontent.com/52943116/144748946-435e88eb-56da-4574-b112-795f63440e1c.png)
 
 ## 12. Is it possible to install the IPA without a computer?
-- Yes, it is.
+- [Yes, it is (Step 5.1)](#53-i-dont-have-a-computer-seriously)
   
