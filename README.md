@@ -1,6 +1,6 @@
 # [Guide] How to Downgrade Apps on AppStore with iTunes 12.6.5 & Charles Proxy (no Jailbreak).
 
-_If you think this guide is useful, considering support me via [Paypal](https://www.paypal.com/paypalme/qnblackcat) <img src="https://img.shields.io/badge/-lightgrey?style=social&logo=paypal" alt="Badge">!_
+_If you think this guide is useful, considering_ [_Buy me a Coffee._](https://buymeacoffee.com/qnblackcat)
 
 # Table of Content
 * [I. Notes](#i-notes)
