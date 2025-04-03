@@ -9,7 +9,7 @@ _If you think this guide is useful, considering_ [_Buy me a Coffee._](https://bu
    * [Step 1. Preparing](#step-1-preparing)
    * [Step 2. Install Charles Root Certificate](#step-2-install-charles-root-certificate)
    * [Step 3. Create the Breakpoint](#step-3-create-the-breakpoint)
-   * [Step 4. Get the old version of the appplication (IPA)](#step-4-get-the-old-version-of-the-appplication-ipa)
+   * [Step 4. Get the old version of the application (IPA)](#step-4-get-the-old-version-of-the-application-ipa)
    * [Step 5. Install the IPA](#step-5-install-the-ipa)
 * [IV. FAQ](#iv-faq)
 
@@ -85,7 +85,7 @@ _(This is where the fun begins!)_
 ***
 
 
-## Step 4. Get the old version of the appplication (IPA)
+## Step 4. Get the old version of the application (IPA)
 ### _Note: You only need to do all the previous steps once. Next time you downgrade an app, you'll start from this step (Step 4)._
 - Go back to iTunes and download Facebook again! **Charles Proxy** will automatically show the **Breakpoint popup**. 
 - **Edit Request** > **XML Text** > Replace the current `Build version number` of Facebook with the `Build Number` of **Facebook v161.0** (`826067593`) > **Execute** > **Execute**. Now iTunes will download **Facebook v161.0** instead of the latest version.
