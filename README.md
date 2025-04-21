@@ -122,13 +122,13 @@ _(This is where the fun begins!)_
 </details>
 
 <details>
-  <summary><strong>5.3. I don't have a computer (seriously?)</strong></summary>
+  <summary><strong>5.3. I don't have a computer (OTA Installer)</strong></summary>
   
   1. Upload the iPA to a cloud storage that supports direct URL generation (Ex: Dropbox, archive.org, MySharePoint...).  
   
-  2. Go to [Manifest.plist Generator](https://qnblackcat.github.io/Manifest-Generator/) to generate a Manifest.plist. Upload & get its direct url.  
+  2. Go to [IPA OTA Install Link Generator](https://qnblackcat.github.io/Manifest-Generator/manifest-generator/) to generate an OTA Install link.  
   
-  3. Go to [itms Generator](https://qnblackcat.github.io/Manifest-Generator/) to create an iPA installation link _(You must open the link in Safari)._  
+  3. Install the IPA, or copy the Install link to share with your friends. _(Link must be opened in Safari)_  
 </details>
 
 # IV. FAQ
