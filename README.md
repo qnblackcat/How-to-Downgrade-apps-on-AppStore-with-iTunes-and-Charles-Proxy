@@ -1,3 +1,9 @@
+# ⚠️ Attention ⚠️
+
+👉 _[ipatool](https://github.com/majd/ipatool) by Majd, now allows you to download older versions of any iOS app. It’s way easier to set up and use than the current method. I highly recommend giving ipatool a try! Feel free to check out [my new guide](https://gist.github.com/qnblackcat/4f7b77f685ccda2ff4ef916a27d66107)_
+
+***
+
 # [Guide] How to Downgrade Apps on AppStore with iTunes 12.6.5 & Charles Proxy (no Jailbreak).
 
 _If you find this guide useful, considering_ [_Buy me a Coffee ☕️_](https://buymeacoffee.com/qnblackcat)
